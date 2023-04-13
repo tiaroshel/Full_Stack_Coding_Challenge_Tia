@@ -1,0 +1,28 @@
+{
+    "configurations": [
+        {
+            "type": "java",
+            "name": "ApiGatewayApplication",
+            "request": "launch",
+            "mainClass": "com.fscc.apigateway.ApiGatewayApplication",
+            "projectName": "api-gateway"
+        },
+        {
+            "type": "java",
+            "name": "LoginServiceApplication",
+            "request": "launch",
+            "mainClass": "com.fscc.loginservice.LoginServiceApplication",
+            "projectName": "login-service"
+        },
+        {
+            "type": "java",
+            "name": "Spring Boot-EmployeeExampleApplication<demo>",
+            "request": "launch",
+            "cwd": "${workspaceFolder}",
+            "mainClass": "com.example.EmployeeExampleApplication",
+            "projectName": "demo",
+            "args": "",
+            "envFile": "${workspaceFolder}/.env"
+        }
+    ]
+}
